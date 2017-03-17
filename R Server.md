@@ -25,7 +25,7 @@ R is a tool of choice for data miners, data analysts, and data scientists. The r
   
   For an open source technology to become useful, it must have a large community that helps improve and make the technology better. R has gained enough of a following to receive a critical mass for an open source technology. Thus, practitioners of R will have the benefit a well-hydrated support community such as StackOverflow and other public forums. R also has more than ten thousand free and open source packages on [CRAN](https://cran.r-project.org/), the community that curates and distributes R packages. The number of R packages on CRAN have risen exponentially over the years.  
   
-  [insert image ref here]
+  ![](./media/image2.png "Number of R packages over time")  
 
 ## Limitations of R
 As much of a force and a movement that open source R has been, the programming language itself lacks the power and efficiency of other languages. R has always had constraints around scaling out to big data. The four biggest constraints of R are listed below:
@@ -43,7 +43,7 @@ What happens when you expand beyond a couple of gigabytes of data? Traditionally
 ## Microsoft R Family
 Microsoft offers four product lines to support R by unlocking its limits and increasing its scope: SQL Server R, Microsoft R Server, Microsoft R, and Microsoft R Open.  
 
-[insert image ref here]  
+![](./media/image3.png "Diagram of Microsoft R Family")    
 
 Microsoft R Server delivers enterprise-class performance and scalability for your R-based applications, with libraries that allow you to write once and deploy across multiple platforms, all with minimal effort --- whether on-premises, or in the cloud.
 By using and extending open source R, Microsoft R Server is fully compatible with R scripts, functions and CRAN packages, using them to analyze data at an enterprise scale. It also addresses the in-memory limitations of open source R by adding parallel and chunked processing of data in Microsoft R Server, enabling users to run analytics on data much bigger than what fits in main memory. And since R Server is built on top of Microsoft R Open, you can use any open source R packages to build your analytics.

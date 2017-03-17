@@ -36,3 +36,13 @@ As much of a force and a movement that open source R has been, the programming l
 3. **In-memory Compute:** R must see the entirety of a file and have it be read into memory (RAM) for it to be processed. It lacks the ability to process things as a stream of a file. What this means is that you are severely bottlenecked by the size of how much memory you have on your machine. On top of this, the R data frame can bloat up files by 3 times. So, users with 8 GBs of ram can only hope to work on files around 1.4 GB in size. Users can avoid this issue by renting a machine with much larger memory, but even that solution has its limits since the VM with the largest RAM that one can currently rent from Azure has 448 GB of RAM -- hardly practical for big data scenarios.  
 
 4. **Cannot Be Distributed:** R cannot even be distributed within a single computer, let alone across multiple computers. However, the current trend in solving big data is not to “scale up” but to “scale wide”: you must use distributed computing frameworks like Hadoop or Spark, where you get a cluster of computers to parallelize a task because the task or data has outstripped the resources of a single machine.  
+
+What happens when you expand beyond a couple of gigabytes of data? Traditionally, you would pack up your data and use something else; Python, Java, or Mahout, to name a few options. Not anymore --- now it’s possible to stick with R throughout your production analysis all the way to deployment, regardless of the data size, even in a distributed Hadoop or Spark environment. Introducing: *Microsoft R Server.*
+
+## Microsoft R Family
+Microsoft offers four product lines to support R by unlocking its limits and increasing its scope: SQL Server R, Microsoft R Server, Microsoft R, and Microsoft R Open.  
+
+[insert image ref here]  
+
+Microsoft R Server delivers enterprise-class performance and scalability for your R-based applications, with libraries that allow you to write once and deploy across multiple platforms, all with minimal effort --- whether on-premises, or in the cloud.
+By using and extending open source R, Microsoft R Server is fully compatible with R scripts, functions and CRAN packages, using them to analyze data at an enterprise scale. It also addresses the in-memory limitations of open source R by adding parallel and chunked processing of data in Microsoft R Server, enabling users to run analytics on data much bigger than what fits in main memory. And since R Server is built on top of Microsoft R Open, you can use any open source R packages to build your analytics.

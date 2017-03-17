@@ -17,7 +17,7 @@ R is a tool of choice for data miners, data analysts, and data scientists. The r
 ## Benefits of R
 + **Dataset friendly**  
 
-  One of R’s greatest strengths is that it greatly improves efficiency and development time, as you do not have to formulate loops as often as in other programming languages. You can call a mean() or a sum function, for example, on the entirety of a column of a dataset without having to build a nested loop.
+  One of R’s greatest strengths is that it greatly improves efficiency and development time, as you do not have to formulate loops as often as in other programming languages. You can call a `mean()` or a `sum` function, for example, on the entirety of a column of a dataset without having to build a nested loop.
 + **Easy to learn**  
 
   R feels very natural for someone used to Excel or SQL, as it treats data as rows and columns rather than individual variables or data structures to be looped over. Being a higher-level programming language like Python or JavaScript, R is also easy to pick up, with many of the more mundane tasks being abstracted away, like garbage collection, variable typing, formulating many loops, or handling many exemptions. 
